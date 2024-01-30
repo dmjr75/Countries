@@ -1,0 +1,601 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 30,
+    "passing": 29,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "97%",
+    "failRate": "3%",
+    "skipRate": "0%",
+    "testStartTime": "2024-01-30T20:23:17.000Z",
+    "testExecutionTimeInMs": 5975,
+    "testTotalTimeInMs": 5975,
+    "commandTimeInMs": 612,
+    "hostname": "https://personal-4df-dev-ed.develop.my.salesforce.com",
+    "orgId": "00DHu000001AEnFMAW",
+    "username": "deja@platform-developer.com",
+    "testRunId": "707Hu0000KkvPUg",
+    "userId": "005Hu00000PUKXOIA5"
+  },
+  "tests": [
+    {
+      "id": "07MHu00000JsNTJMA3",
+      "queueItemId": "709Hu000001W3LAIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testStoreSupplyOrderController",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhTIAX",
+        "name": "StoreSupplyOrderTests",
+        "namespacePrefix": null,
+        "fullName": "StoreSupplyOrderTests"
+      },
+      "runTime": 1105,
+      "testTimestamp": "2024-01-30T20:23:54.000+0000",
+      "fullName": "StoreSupplyOrderTests.testStoreSupplyOrderController"
+    },
+    {
+      "id": "07MHu00000JsNTKMA3",
+      "queueItemId": "709Hu000001W3LAIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testStoreSupplyOrderEmailFromFlow",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhTIAX",
+        "name": "StoreSupplyOrderTests",
+        "namespacePrefix": null,
+        "fullName": "StoreSupplyOrderTests"
+      },
+      "runTime": 110,
+      "testTimestamp": "2024-01-30T20:24:03.000+0000",
+      "fullName": "StoreSupplyOrderTests.testStoreSupplyOrderEmailFromFlow"
+    },
+    {
+      "id": "07MHu00000JsNSuMAN",
+      "queueItemId": "709Hu000001W3LBIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testConditionals",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhCIAX",
+        "name": "BasicsTest",
+        "namespacePrefix": null,
+        "fullName": "BasicsTest"
+      },
+      "runTime": 18,
+      "testTimestamp": "2024-01-30T20:23:17.000+0000",
+      "fullName": "BasicsTest.testConditionals"
+    },
+    {
+      "id": "07MHu00000JsNTiMAN",
+      "queueItemId": "709Hu000001W3LBIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testLoops",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhCIAX",
+        "name": "BasicsTest",
+        "namespacePrefix": null,
+        "fullName": "BasicsTest"
+      },
+      "runTime": 55,
+      "testTimestamp": "2024-01-30T20:26:33.000+0000",
+      "fullName": "BasicsTest.testLoops"
+    },
+    {
+      "id": "07MHu00000JsNTjMAN",
+      "queueItemId": "709Hu000001W3LBIA0",
+      "stackTrace": "Class.Queries.SOSL: line 96, column 1\nClass.BasicsTest.testQueries: line 30, column 1",
+      "message": "System.UnexpectedException: Search unavailable",
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testQueries",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhCIAX",
+        "name": "BasicsTest",
+        "namespacePrefix": null,
+        "fullName": "BasicsTest"
+      },
+      "runTime": 102,
+      "testTimestamp": "2024-01-30T20:26:37.000+0000",
+      "fullName": "BasicsTest.testQueries",
+      "diagnostic": {
+        "exceptionMessage": "System.UnexpectedException: Search unavailable",
+        "exceptionStackTrace": "Class.Queries.SOSL: line 96, column 1\nClass.BasicsTest.testQueries: line 30, column 1",
+        "className": "Queries",
+        "compileProblem": "",
+        "lineNumber": 96,
+        "columnNumber": 1
+      }
+    },
+    {
+      "id": "07MHu00000JsNTkMAN",
+      "queueItemId": "709Hu000001W3LBIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testVariables",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhCIAX",
+        "name": "BasicsTest",
+        "namespacePrefix": null,
+        "fullName": "BasicsTest"
+      },
+      "runTime": 26,
+      "testTimestamp": "2024-01-30T20:26:37.000+0000",
+      "fullName": "BasicsTest.testVariables"
+    },
+    {
+      "id": "07MHu00000JsNTEMA3",
+      "queueItemId": "709Hu000001W3LCIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testBronzeAccount",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhAIAX",
+        "name": "AccountTests",
+        "namespacePrefix": null,
+        "fullName": "AccountTests"
+      },
+      "runTime": 793,
+      "testTimestamp": "2024-01-30T20:23:42.000+0000",
+      "fullName": "AccountTests.testBronzeAccount"
+    },
+    {
+      "id": "07MHu00000JsNTFMA3",
+      "queueItemId": "709Hu000001W3LCIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testGoldAccount",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhAIAX",
+        "name": "AccountTests",
+        "namespacePrefix": null,
+        "fullName": "AccountTests"
+      },
+      "runTime": 78,
+      "testTimestamp": "2024-01-30T20:24:00.000+0000",
+      "fullName": "AccountTests.testGoldAccount"
+    },
+    {
+      "id": "07MHu00000JsNTGMA3",
+      "queueItemId": "709Hu000001W3LCIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testPlatinumAccount",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhAIAX",
+        "name": "AccountTests",
+        "namespacePrefix": null,
+        "fullName": "AccountTests"
+      },
+      "runTime": 262,
+      "testTimestamp": "2024-01-30T20:24:01.000+0000",
+      "fullName": "AccountTests.testPlatinumAccount"
+    },
+    {
+      "id": "07MHu00000JsNTHMA3",
+      "queueItemId": "709Hu000001W3LCIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testSilverAccount",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhAIAX",
+        "name": "AccountTests",
+        "namespacePrefix": null,
+        "fullName": "AccountTests"
+      },
+      "runTime": 81,
+      "testTimestamp": "2024-01-30T20:24:02.000+0000",
+      "fullName": "AccountTests.testSilverAccount"
+    },
+    {
+      "id": "07MHu00000JsNT9MAN",
+      "queueItemId": "709Hu000001W3LEIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testCustomerSatisfactionChange",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhVIAX",
+        "name": "StoreTests",
+        "namespacePrefix": null,
+        "fullName": "StoreTests"
+      },
+      "runTime": 287,
+      "testTimestamp": "2024-01-30T20:23:18.000+0000",
+      "fullName": "StoreTests.testCustomerSatisfactionChange"
+    },
+    {
+      "id": "07MHu00000JsNTAMA3",
+      "queueItemId": "709Hu000001W3LEIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testExternalCallout",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhVIAX",
+        "name": "StoreTests",
+        "namespacePrefix": null,
+        "fullName": "StoreTests"
+      },
+      "runTime": 29,
+      "testTimestamp": "2024-01-30T20:24:00.000+0000",
+      "fullName": "StoreTests.testExternalCallout"
+    },
+    {
+      "id": "07MHu00000JsNTBMA3",
+      "queueItemId": "709Hu000001W3LEIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testInvocableMethod",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhVIAX",
+        "name": "StoreTests",
+        "namespacePrefix": null,
+        "fullName": "StoreTests"
+      },
+      "runTime": 5,
+      "testTimestamp": "2024-01-30T20:24:02.000+0000",
+      "fullName": "StoreTests.testInvocableMethod"
+    },
+    {
+      "id": "07MHu00000JsNTCMA3",
+      "queueItemId": "709Hu000001W3LEIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testStoreControllerExt",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhVIAX",
+        "name": "StoreTests",
+        "namespacePrefix": null,
+        "fullName": "StoreTests"
+      },
+      "runTime": 158,
+      "testTimestamp": "2024-01-30T20:24:02.000+0000",
+      "fullName": "StoreTests.testStoreControllerExt"
+    },
+    {
+      "id": "07MHu00000JsNTDMA3",
+      "queueItemId": "709Hu000001W3LEIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testStoreCustomControllerCreate",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhVIAX",
+        "name": "StoreTests",
+        "namespacePrefix": null,
+        "fullName": "StoreTests"
+      },
+      "runTime": 103,
+      "testTimestamp": "2024-01-30T20:24:03.000+0000",
+      "fullName": "StoreTests.testStoreCustomControllerCreate"
+    },
+    {
+      "id": "07MHu00000JsNTOMA3",
+      "queueItemId": "709Hu000001W3LEIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testStoreCustomControllerUpdate",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhVIAX",
+        "name": "StoreTests",
+        "namespacePrefix": null,
+        "fullName": "StoreTests"
+      },
+      "runTime": 83,
+      "testTimestamp": "2024-01-30T20:24:03.000+0000",
+      "fullName": "StoreTests.testStoreCustomControllerUpdate"
+    },
+    {
+      "id": "07MHu00000JsNTPMA3",
+      "queueItemId": "709Hu000001W3LEIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testStoreCustomControllerUpdateNoAccess",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhVIAX",
+        "name": "StoreTests",
+        "namespacePrefix": null,
+        "fullName": "StoreTests"
+      },
+      "runTime": 798,
+      "testTimestamp": "2024-01-30T20:24:04.000+0000",
+      "fullName": "StoreTests.testStoreCustomControllerUpdateNoAccess"
+    },
+    {
+      "id": "07MHu00000JsNSzMAN",
+      "queueItemId": "709Hu000001W3LFIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "exceptionsTestCreateStore",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhLIAX",
+        "name": "MiscTests",
+        "namespacePrefix": null,
+        "fullName": "MiscTests"
+      },
+      "runTime": 156,
+      "testTimestamp": "2024-01-30T20:23:18.000+0000",
+      "fullName": "MiscTests.exceptionsTestCreateStore"
+    },
+    {
+      "id": "07MHu00000JsNTTMA3",
+      "queueItemId": "709Hu000001W3LFIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "exceptionsTestThrowException",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhLIAX",
+        "name": "MiscTests",
+        "namespacePrefix": null,
+        "fullName": "MiscTests"
+      },
+      "runTime": 39,
+      "testTimestamp": "2024-01-30T20:26:28.000+0000",
+      "fullName": "MiscTests.exceptionsTestThrowException"
+    },
+    {
+      "id": "07MHu00000JsNTUMA3",
+      "queueItemId": "709Hu000001W3LFIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testAccountUtility",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhLIAX",
+        "name": "MiscTests",
+        "namespacePrefix": null,
+        "fullName": "MiscTests"
+      },
+      "runTime": 245,
+      "testTimestamp": "2024-01-30T20:26:31.000+0000",
+      "fullName": "MiscTests.testAccountUtility"
+    },
+    {
+      "id": "07MHu00000JsNTVMA3",
+      "queueItemId": "709Hu000001W3LFIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testAccountUtilityBadQuery",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhLIAX",
+        "name": "MiscTests",
+        "namespacePrefix": null,
+        "fullName": "MiscTests"
+      },
+      "runTime": 7,
+      "testTimestamp": "2024-01-30T20:26:31.000+0000",
+      "fullName": "MiscTests.testAccountUtilityBadQuery"
+    },
+    {
+      "id": "07MHu00000JsNTWMA3",
+      "queueItemId": "709Hu000001W3LFIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testAccountUtilityBlankSearch",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhLIAX",
+        "name": "MiscTests",
+        "namespacePrefix": null,
+        "fullName": "MiscTests"
+      },
+      "runTime": 5,
+      "testTimestamp": "2024-01-30T20:26:32.000+0000",
+      "fullName": "MiscTests.testAccountUtilityBlankSearch"
+    },
+    {
+      "id": "07MHu00000JsNTXMA3",
+      "queueItemId": "709Hu000001W3LFIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testOutputEncoder",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhLIAX",
+        "name": "MiscTests",
+        "namespacePrefix": null,
+        "fullName": "MiscTests"
+      },
+      "runTime": 21,
+      "testTimestamp": "2024-01-30T20:26:32.000+0000",
+      "fullName": "MiscTests.testOutputEncoder"
+    },
+    {
+      "id": "07MHu00000JsNTdMAN",
+      "queueItemId": "709Hu000001W3LFIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testSchedulableJob",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhLIAX",
+        "name": "MiscTests",
+        "namespacePrefix": null,
+        "fullName": "MiscTests"
+      },
+      "runTime": 207,
+      "testTimestamp": "2024-01-30T20:26:32.000+0000",
+      "fullName": "MiscTests.testSchedulableJob"
+    },
+    {
+      "id": "07MHu00000JsNTeMAN",
+      "queueItemId": "709Hu000001W3LFIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testTaskCreatorJobException",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhLIAX",
+        "name": "MiscTests",
+        "namespacePrefix": null,
+        "fullName": "MiscTests"
+      },
+      "runTime": 353,
+      "testTimestamp": "2024-01-30T20:26:32.000+0000",
+      "fullName": "MiscTests.testTaskCreatorJobException"
+    },
+    {
+      "id": "07MHu00000JsNTfMAN",
+      "queueItemId": "709Hu000001W3LFIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testTaskCreatorJobSuccess",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhLIAX",
+        "name": "MiscTests",
+        "namespacePrefix": null,
+        "fullName": "MiscTests"
+      },
+      "runTime": 344,
+      "testTimestamp": "2024-01-30T20:26:33.000+0000",
+      "fullName": "MiscTests.testTaskCreatorJobSuccess"
+    },
+    {
+      "id": "07MHu00000JsNT4MAN",
+      "queueItemId": "709Hu000001W3LGIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "controllerExtensionTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhJIAX",
+        "name": "LeadTests",
+        "namespacePrefix": null,
+        "fullName": "LeadTests"
+      },
+      "runTime": 102,
+      "testTimestamp": "2024-01-30T20:23:18.000+0000",
+      "fullName": "LeadTests.controllerExtensionTest"
+    },
+    {
+      "id": "07MHu00000JsNTYMA3",
+      "queueItemId": "709Hu000001W3LGIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "customControllerTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhJIAX",
+        "name": "LeadTests",
+        "namespacePrefix": null,
+        "fullName": "LeadTests"
+      },
+      "runTime": 147,
+      "testTimestamp": "2024-01-30T20:26:29.000+0000",
+      "fullName": "LeadTests.customControllerTest"
+    },
+    {
+      "id": "07MHu00000JsNTZMA3",
+      "queueItemId": "709Hu000001W3LGIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testValidateLeadInfoControllerExtension",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhJIAX",
+        "name": "LeadTests",
+        "namespacePrefix": null,
+        "fullName": "LeadTests"
+      },
+      "runTime": 321,
+      "testTimestamp": "2024-01-30T20:26:32.000+0000",
+      "fullName": "LeadTests.testValidateLeadInfoControllerExtension"
+    },
+    {
+      "id": "07MHu00000JsNTaMAN",
+      "queueItemId": "709Hu000001W3LGIA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707Hu0000KkvPUgIQM",
+      "methodName": "testValidateLeadInfoCustomController",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01pHu00000MHRhJIAX",
+        "name": "LeadTests",
+        "namespacePrefix": null,
+        "fullName": "LeadTests"
+      },
+      "runTime": 211,
+      "testTimestamp": "2024-01-30T20:26:33.000+0000",
+      "fullName": "LeadTests.testValidateLeadInfoCustomController"
+    }
+  ]
+}
