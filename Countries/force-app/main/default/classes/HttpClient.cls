@@ -2,7 +2,7 @@ public with sharing class HttpClient {
 
     private HttpRequest request;
     private Http http;
-    private HttpResponse reponse;
+    private HttpResponse response;
 
     public HttpClient() {
         this.request = new HttpRequest();
@@ -27,7 +27,7 @@ public with sharing class HttpClient {
     }
 
     public HttpResponse getResponse(){
-        return this.reponse();
+        return this.response;
     }
 
     public Integer getStatusCode(){
