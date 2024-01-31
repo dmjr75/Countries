@@ -30,8 +30,8 @@ public with sharing class HttpClient {
         return this.response;
     }
 
-    public Integer getStatusCode(){
-        return this.getStatusCode();
+    public Integer getResponseCode(){
+        return this.response.getStatusCode();
     }
 
 }
