@@ -8,6 +8,9 @@ public with sharing class Country {
     private String capital;
     private List<String> currencies = new List<String>();
     private String flagUrl;
+    private Boolean hasError = false;
+    private Integer httpErrorCode;
+    private String apiErrorMessage;
 
     public Country(String name) {
         this.name = name;
@@ -15,27 +18,35 @@ public with sharing class Country {
 
      // Getters
     public String getAlpha2CountryCode() {
-        return alpha2CountryCode;
+        return this.alpha2CountryCode;
     }
 
     public String getAlpha3CountryCode() {
-        return alpha3CountryCode;
+        return this.alpha3CountryCode;
     }
 
     public Decimal getArea() {
-        return area;
+        return this.area;
     }
 
     public String getCapital() {
-        return capital;
+        return this.capital;
     }
 
     public List<String> getCurrencies() {
-        return currencies;
+        return this.currencies;
     }
 
     public String getFlagUrl() {
-        return flagUrl;
+        return this.flagUrl;
+    }
+
+    public Integer getHttpErrorCode(){
+        return this.httpErrorCode;
+    }
+
+    public String getApiErrorMessage(){
+        return this.apiErrorMessage;
     }
 
     // Setters
@@ -62,4 +73,12 @@ public with sharing class Country {
     public void setFlagUrl(String flagUrl) {
         this.flagUrl = flagUrl;
     }   
+
+    public void setHttpErrorCode(Integer httpErrorCode){
+        this.httpErrorCode = httpErrorCode;
+    }
+
+    public void setApiErrorMessage(String apiErrorMessage){
+        this.apiErrorMessage = apiErrorMessage;
+    }
 }
